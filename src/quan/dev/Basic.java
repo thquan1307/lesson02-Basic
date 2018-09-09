@@ -4,38 +4,11 @@ public class Basic {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int n  = 5;
-		
-		switch(n) {
-			case 1:
-				System.out.println("one");
-				break;
-			case 2:
-				System.out.println("two");
-				break;
-			case 3:
-				System.out.println("three");
-				break;
-			case 4:
-				System.out.println("four");
-				break;
-			case 5:
-				System.out.println("five");
-				break;
-			case 6:
-				System.out.println("six");
-				break;
-			case 7:
-				System.out.println("seven");
-				break;
-			case 8:
-				System.out.println("eight");
-				break;
-			case 9:
-				System.out.println("nine");
-				break;
+		int tong = 0;
+		for(int i = 1; i <= 100; i++) {
+			tong = tong + i;
 		}
-		
+		System.out.println("Tong 100 so dau tien la: "+tong);
 	}
 
 }
